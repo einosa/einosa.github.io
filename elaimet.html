@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Eläimet, Koirat, Vesisiat">
+    <meta name="description" content="Tietoa koirista ja vesisioista">
+    <link rel="stylesheet" href="elaimet.css">
+    <title>Lempieläimet</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a id="takaisinetusivu" href="elaimet.html"><strong>Etusivu</strong></a>
+        <a id="capysivulle" href="capy.html">Vesisiat</a>
+        <a id="koirasivulle" href="koira.html">Koirat</a>
+      </nav>
+</header>
+    <h1>Tällä sivustolla esittelen lempieläimeni</h1>
+    <h2>Alla olevasta listasta näet lempieläimeni</h2>
+    <nav>
+    <ul>
+        <li><a href="koira.html">Koirat</a></li>
+        <li><a href="capy.html">Vesisiat</a></li>
+    </ul>
+</nav>
+    <p>Voit myös halutessasi klikata sinua kiinnostavaa eläintä alla olevasta kuvasta</p>
+    <img id="etusivu" src="https://api.time.com/wp-content/uploads/2016/06/dog-capybara-friends.jpg"
+        alt="kuva capybarasta ja koirasta yhdessä" usemap="#elainkartta">
+    <map name="elainkartta">
+        <area shape="rect" coords="0,0,450,500" href="koira.html" alt="koira sivulle">
+        <area shape="rect" coords="450,0,900,500" href="capy.html" alt="capy sivulle">
+    </map>
+</body>
+
+</html>
