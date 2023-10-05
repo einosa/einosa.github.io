@@ -20,3 +20,6 @@ a:hover {
     display: flex;
     justify-content: flex-start;
 }
+#kuva {
+    max-width: 100%;
+}
