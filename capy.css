@@ -1,61 +1,19 @@
 body {
     background-color: lightgoldenrodyellow;
-    text-align: justify;
-    padding-right: 500px;
-    font-family: Garamond;
-    display: block;
+    font-family: garamond;
     font-size: large;
+    padding-right: 30%;
 }
-
-#capyperhe {
-    height: 350px;
-    width: 747px;
-    padding-right: 1px;
-    align-items: center;
-    padding-top: 10px;
-}
-
-button :hover {
-    cursor: pointer;
-}
-
-#takaisinetusivu {
-    font-family: Garamond;
-    height: 30px;
-    width: 100px;
+a {
     text-decoration: none;
     font-size: larger;
+    margin-right: 20px;
+    color: #551a8b;
 }
-
-#koirasivulle {
-    font-family: Garamond;
-    height: 30px;
-    width: 100px;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: larger;
-}
-
-#capylisatieto {
-    font-family: Garamond;
-    height: 30px;
-    width: 100px;
-
-}
-
-#capylisatieto:hover {
+a:hover {
     color: blue;
 }
-#capy {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 200px;
-}
-nav :hover {
-    color: blue;
-}
+
 table {
     border-color: black;
     border-style: groove;
@@ -63,11 +21,14 @@ table {
     line-height: 1.5;
     background-color: bisque;
 }
-#capysivulle {
-    font-family: Garamond;
-    height: 30px;
-    width: 100px;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: larger;
+#alakuva {
+    padding-top: 2%;
+    max-width: 100%;
+}
+#capygif {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
 }

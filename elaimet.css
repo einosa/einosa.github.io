@@ -1,41 +1,22 @@
 body {
     background-color: lightgoldenrodyellow;
+    font-family: garamond;
     text-align: center;
-    font-family: Garamond;
-    font-size: larger;
+    font-size: large;
 }
-
 li {
     list-style: none;
-    margin: 5px;
-    font-size: larger;
-}
-
-li :hover {
-    color: blue;
-}
-
-#etusivu {
-    height: 500px;
-    width: 900px;
-    border-style: outset;
-    border-color: black;
-}
-header {
-    position:absolute;
-    top: 0;
-    left: 0;
-    font-size: larger;
-    text-decoration: none;
+    margin: 3px;
 }
 a {
     text-decoration: none;
-    margin-left: 5px;
-    font-size: 21.6px;
-    font-family: Garamond;
-    height: 30px;
-    width: 100px;
+    font-size: larger;
+    margin-right: 20px;
 }
-header :hover {
+a:hover {
     color: blue;
+}
+.ylavalikko {
+    display: flex;
+    justify-content: flex-start;
 }
