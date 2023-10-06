@@ -12,9 +12,12 @@ a {
     text-decoration: none;
     font-size: larger;
     margin-right: 20px;
+    color: #551a8b;
+    transition: font-size 0.3s;
 }
 a:hover {
     color: blue;
+    font-size: x-large;
 }
 .ylavalikko {
     display: flex;

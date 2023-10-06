@@ -9,9 +9,11 @@ a {
     font-size: larger;
     margin-right: 20px;
     color: #551a8b;
+    transition: font-size 0.3s;
 }
 a:hover {
     color: blue;
+    font-size: x-large;
 }
 
 table {
@@ -32,3 +34,14 @@ table {
     width: 25%;
     height: 30%;
 }
+
+button {
+    width: 100px;
+    height: 50px;
+    transition: width 2s;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  button:hover {
+    width: 300px;
+  }
