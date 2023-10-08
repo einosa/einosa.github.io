@@ -25,4 +25,5 @@ a:hover {
 }
 #kuva {
     max-width: 100%;
+    border-style: groove ;
 }
