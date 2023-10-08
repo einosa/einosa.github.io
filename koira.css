@@ -33,6 +33,7 @@ table {
     right: 0;
     width: 25%;
     height: 30%;
+    box-shadow: 2px 2px 2px 0px;
 }
 
 button {
